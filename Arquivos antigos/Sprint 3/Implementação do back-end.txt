@@ -1,0 +1,48 @@
+1.O front-end se conecta ao back-end?
+
+O front-end ainda não está conectado ao back-end
+
+
+2.O back-end se conecta ao banco de dados? 
+
+Sim, o back-end está conectado ao banco de dados
+
+3.Todos os CRUDs e telas já foram finalizados?
+
+Todos os CRUDs já foram finalizados e funcionam perfeitamente, porem, algumas telas ainda não foram finalizadas
+
+4.Seu projeto no Eclipse tem as pastas src/main/java e src/main/resources sendo que o código do back-end está na primeira pasta e os recursos (front-end, script-sql e imagens) estão na segunda pasta?
+
+Sim
+
+5.Seu código back-end (na pasta src/main/java) tem os pacotes app, dao, model e service?
+
+Os pacodes dao e model já foram finalizados, os pacotes app e service ainda não foram feitos
+
+6.Sua pasta de recursos está organizada em uma pasta para cada um dos recursos? Por exemplo, as pastas front-end, script-bd e imagens.
+
+sim
+
+7.Suas classes java seguem princípios de desenvolvimento Java? Comentários padronizados, atributos privados começando com letra minúscula e tendo um método get/set?
+
+Sim
+
+8.O código src/main/java/app/Aplicacao.java tem um insert/update/remove/get/listar para cada um dos CRUDs?
+
+Não pois o codigo Aplicação.java ainda não foi feito, mas terá quando estiver pronto.
+
+9.O pacote dao tem uma classe dao para cada um dos CRUDs? Cada classe DAO tem, pelo menos, um método para cada uma das operações insert/update/remove/get/listar? Temos também um método, por exemplo, para abrir a conexão com o banco de dados e outro para fechá-la?
+
+O pacote dao possui uma classe dao para cada crud e cada um deles possui os métodos para executar as operações relevantes.
+
+10.O pacote model tem uma classe para cada um dos CRUDs? Cada uma dessas classes tem, pelo menos, os atributos existentes na tabela relativa aquela classe no banco de dados?
+
+o pacote model possui uma classe para cada CRUD e cada classe possui os atributos referentes a sua tabela no banco de dados.
+
+11.O pacote service tem uma classe para cada um dos CRUDs? Cada uma dessas classes tem, pelo menos, um método para cada uma das operações de insert/update/remove/get/listar?
+
+O pacote service ainda não foi finalizado.
+
+O front-end invoca cada um dos CRUDs? Para cada CRUD, o front-end tem as opções de insert/update/remove/get/listar?
+
+O front-end ainda não está conectado ao back-end
