@@ -1,0 +1,167 @@
+.navbar{
+    background-color: #8CE2AE;
+    color: black;
+}
+
+html, body{
+    background-color: #ecf5e0;
+}
+
+.vr{
+    height: 170px;
+}
+
+
+.row{
+    width: 100%;
+}
+
+div{
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+
+p, h1, h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.column h1{
+    font-size: 60px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.container-a{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+}
+
+.container-b{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 110px;
+}
+
+.card-perfil{
+    background-color: #1b3a6b;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    color: #ecf5e0;
+}
+
+.card-link-perfil{
+    color: #ecf5e0;
+}
+
+.card-link-perfil:hover{
+    color: #8CE2AE;
+}
+
+.card-text-perfil {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-text-premium{
+    margin: 30px;
+
+}
+
+.card-title-opcoes{
+    margin-bottom: 10px;
+}
+
+.card-opcoes{
+    background-color: #1b3a6b;
+    padding: 25px;
+    color: #ecf5e0;
+    text-align: center;
+}
+
+.button_opcoes{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button_opcoes input:checked{
+    background-color: #67bd95;
+}
+
+.img1{
+    width: 55%;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.modal-content{
+    background-color: #1b3a6b;
+    width: 30%;
+    margin-top: 115px;
+    padding: 25px;
+}
+
+h2{
+    text-align: center;
+}
+
+.card-login{
+    text-align: center;
+    background-color: #1b3a6b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 150px;
+    color: #ecf5e0;
+}
+
+.buton-login{
+    background-color: #8CE2AE;
+    color: #1b3a6b;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.card-title-login{
+    padding-bottom: 10px;
+}
+
+.footer{
+    margin-top: 110px;
+    background-color: #67bd95;
+    width: 100%;
+    height: 10%;
+    padding-top: 15px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.puc{
+    height: 50px;
+}
+
+.error-validation{
+    color: #FF1A1A;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}
