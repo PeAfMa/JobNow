@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>Pagina Inicial-JobNow</title>
+    <script defer src="bot.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">JobNow</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Sair</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="width: 100%;" class="container" >
+
+        <div style="margin-top: 5%;" class="row">
+            <div style= "margin-left: 0%;" class="col-lg-5">
+                <h4 style="font-family: 'Roboto', sans-serif;">Escolha o serviço que deseja contratar!</h4>
+                <select style="width: 30%; font-family: 'Roboto', sans-serif;" class="form-select" id="country" required="">
+                    <option value="">Escolha</option>
+                    <option>Faxina</option>
+                    <option></option>
+                </select>
+                <div class="invalid-feedback">
+                    Escolha um serviço válido.
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <a style="background-color: #8CE2AE; border-color: #8CE2AE;" class="btn btn-warning" href="Favoritos.html" role="button">Favoritos</a>
+            </div>
+        </div>
+
+        <hr style="margin-top: 4%; margin-bottom: 2%;" class="featurette-divider">
+
+        <div style="margin-top: 5%; " class="row">
+
+            <h4 style="margin-bottom: 4%;">Nome do serviço</h4>
+
+            <div class="col-lg-3">
+                <h2 style="text-align: justify !important;" class="fw-normal">Nome</h2>
+                <p>Descrição do Perfil</p>
+                <p>Localização</p>
+                <p><a class="btn btn-secondary" href="homeEmpregado.html">Visitar Perfil</a></p>
+            </div>
+
+            <div class="col-lg-3">
+                <h2 style="text-align: justify !important;" class="fw-normal">Nome</h2>
+                <p>Descrição do Perfil</p>
+                <p>Localização</p>
+                <p><a class="btn btn-secondary" href="#">Visitar Perfil</a></p>
+            </div>
+
+            <div class="col-lg-3">
+                <h2 style="text-align: justify !important;" class="fw-normal">Nome</h2>
+                <p>Descrição do Perfil</p>
+                <p>Localização</p>
+                <p><a class="btn btn-secondary" href="#">Visitar Perfil</a></p>
+            </div>
+
+            <div class="col-lg-3">
+                <h2 style="text-align: justify !important;" class="fw-normal">Nome</h2>
+                <p>Descrição do Perfil</p>
+                <p>Localização</p>
+                <p><a class="btn btn-secondary" href="#">Visitar Perfil</a></p>
+            </div>
+        </div>
+
+        <div id="chat" class="chat">
+            <div id="messages" class="messages"></div>
+            <input id="input" type="text" placeholder="Como posso lhe ajudar..." autocomplete="off" autofocus="true" />
+        </div>
+
+    </div>
+</body>
+
+<footer class="footer">
+    <img class="puc" src="imagens/Brasao PUC Minas aplicacao_cinza.png">
+    <p style="text-align: center;">2022 JobNow - Todos os direitos reservados</p>
+</footer>
+</html>
